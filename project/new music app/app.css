@@ -1,0 +1,133 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+}
+
+.container {
+  width: 320px;
+  height: 540px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: 5px solid green;
+  margin: 60px auto;
+  border-radius: 20px;
+  text-align: center;
+  background-color: DarkSlateGrey;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.top i {
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+img {
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  border: 10px solid whitesmoke;
+}
+
+#bar {
+  margin-top: 20px;
+  width: 90%;
+  background-color: green;
+  color: white;
+}
+
+.control {
+  width: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.control i {
+  font-size: 22px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.img {
+  animation: img infinite 12s linear;
+}
+
+@keyframes img {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.songdata {
+  display: block;
+}
+
+.songlist {
+  display: none;
+}
+
+#songlist {
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 10px auto;
+}
+
+ul li {
+  list-style: none;
+  border: 2px solid green;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 4px 6px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+ul li i {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+ul li img {
+  width: 40px;
+  height: 40px;
+  border: 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="top">
+                <i class="fas fa-volume-high" id="sound"></i>
+                <i class="fas fa-bars" id="listToggle"></i>
+            </div>
+            <div id="songlist" class="songlist">
+                <ul id="playlist">
+                    <!-- Song list items will be added dynamically -->
+                </ul>
+            </div>
+            <div id="songdata" class="songdata">
+                <div class="image">
+                    <img src="img/img1.jpg" alt="" id="img" class="img">
+                </div>
+                <h2 id="name">new bhakti song</h2>
+                <input type="range" id="bar">
+                <div class="control">
+                    <i class="fas fa-backward" id="prew"></i>
+                    <i class="fas fa-play" id="playbtn"></i>
+                    <i class="fas fa-forward" id="next"></i>
+                </div>
+            </div>
+        </div>
+        <audio src="./song/song1.mp3" id="audio"></audio>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/ef46c9b757.js" crossorigin="anonymous"></script>
+</body>
+</html>

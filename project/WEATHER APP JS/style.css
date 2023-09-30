@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  #img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .weather-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .city-name {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .temp {
+    font-size: 64px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .temp-value {
+    color: #1d1d1d;
+  }
+  
+  .temp-unit {
+    color: #a8a8a8;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .additional-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .description-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .humidity-text, .wind-speed-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .humidity-value, .wind-speed-value {
+    font-size: 18px;
+  }
+  
+
+
+  @media screen and (max-width: 600px) {
+   
+    .temp {
+      font-size: 48px;
+    }
+    
+    .weather-icon {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .description-text {
+      font-size: 20px;
+    }
+    
+    .humidity-text, .wind-speed-text {
+      font-size: 16px;
+    }
+    
+    .humidity-value, .wind-speed-value {
+      font-size: 16px;
+    }
+  }
+  

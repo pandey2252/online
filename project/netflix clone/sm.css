@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+    
+    nav{
+        display: flex;
+        width: 100%;
+    }
+    .logo{
+        width: 60px;
+        margin-left: 0;
+    }
+    nav button{
+        margin-left: 0px;
+        padding: 3px 10px;
+        font-size: 12px;
+    }
+
+    .language-btn{
+       
+        padding: 3px 2px;
+        margin-right: 10px;
+        
+    }
+    .header-content{
+      top: 40%;
+        
+        background: transparent;
+      
+        text-align: center;
+        margin-top: 40px;
+       
+    
+    }
+    .header-content h1{
+        font-size: 18px;
+        width: 100%;
+        padding: 0;
+        white-space: normal;
+       
+    }
+    .header-content h2{
+        font-size: 15px;
+        padding: 0;
+    }
+    .header-content p{
+        font-size: 12px;
+        white-space: normal;
+       
+
+    }
+   .foam input{
+    width: 90vw;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 0;
+   }
+   .btn{
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+   width: 120px;
+   margin: 20px auto;
+   }
+
+   

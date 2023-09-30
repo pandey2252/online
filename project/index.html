@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+   
+
+    <div class="container">
+
+        <div class="main">
+            <div class="top">
+                <i class="fa-solid fa-volume-high" id="sound"></i>
+                <i class="fa-solid fa-bars" id="list"  onclick="change()"></i>
+
+                </div>
+
+                <div  id="songlist" class="songlist">
+
+                    <ul>
+                        <li onclick="songlistaudio()" >    <img src="./img/img1.jpg" alt="">   new bhakti  song   <i class=" itemplay    fa-solid fa-play" ></i>    </li>
+                        <li onclick="songlistaudio2()"  >   <img src="./img/img2.jpg" alt="">   honey singh makhna <i class="  itemplay  fa-solid fa-play" ></i>   </li>
+            
+                        <li  onclick="songlistaudio3()">  <img src="./img/img3.jpg" alt=""> kangna ranawat  song <i class=" itemplay  fa-solid fa-play" ></i>   </li>
+                        <li onclick="songlistaudio4()" >   <img src="./img/img4.jfif" alt="">  punjabi  song daku  <i class=" itemplay  fa-solid fa-play" ></i>   </li>
+                        <li onclick="songlistaudio5()" >  <img src="./img/img5.jfif" alt=""> new song kesariya  <i class=" itemplay  fa-solid fa-play" ></i>   </li>
+            
+                        <li   onclick="songlistaudio6()"> <img src="./img/img6.jpg" alt="">   bom aa gaya song <i class=" itemplay   fa-solid fa-play" ></i>   </li>
+                        <li onclick="songlistaudio7()">  <img src="./img/img7.jpg" alt=""> arjeet singh song<i class=" itemplay  fa-solid fa-play" ></i>   </li>
+
+            
+                    </ul>            
+            
+
+
+
+            </div>
+
+
+            
+
+<div  id="songdata">
+
+    <div class="image">
+        <img src="img/img1.jpg" alt="" id="img" class="img">
+    </div>
+    <h2 id="name">new bhakti song</h2>
+<input type="range"  id="bar">
+<div class="control">
+<i class="fa-solid fa-backward" id="prew"></i>
+<i class="fa-solid fa-play" id="playbtn"></i>
+<i class="fa-solid fa-forward"  id="next"></i>
+</div>
+</div>
+
+
+
+
+    
+
+     
+      </div>
+
+
+    
+
+    
+      <audio src="./song/song1.mp3" id="audio"></audio>
+
+      
+      
+
+
+     
+
+
+    
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/ef46c9b757.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
